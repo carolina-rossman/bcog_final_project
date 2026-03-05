@@ -4,7 +4,7 @@ We will be attempting to recreate an advanced version of the no wifi dinosour ga
 ### 2. For each of the three functions, a very brief (1-2 sentences) description of what the function will do.
       a) One of the functions needs to collect and activate the power-ups and power-downs.
       b) Another function needs to control the dinosaur, including user-inputted jumps.
-      c) The last function needs to control the background and have it scroll, and the dinosaur moves. 
+      c) The last function needs to control the background and have it scroll, as the dinosaur moves. 
 ### 3. If you are doing a group project, the list of group members with both their real names and Github usernames.
       Alex Transue: a-tran69
       Patricia Richards: liltrishpzr-glitch
