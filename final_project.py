@@ -2,9 +2,9 @@
 
 # Start game Screen (Carolina)
 
-# Begginging sequence (Patrica)
+# Begginging sequence (Patricia)
 
-# background that scrolls throughout run(stops when character is killed) Patrica
+# background that scrolls throughout run(stops when character is killed) Patricia
 
 #Base Dino, should be able to jump when space bar is hit (Carolina)
 
@@ -22,10 +22,10 @@
 
 # Shorterned jumps (Carolina)
 
-# Score Counter- Based on token/coins and distance (Patrica)
+# Score Counter- Based on token/coins and distance (Patricia)
 
 # Obstacles (Alex)
 
-# Game over screeb (Alex)
+# Game over screen (Alex)
 
 # Finished Screen (Alex)
