@@ -4,6 +4,7 @@ Names and Parameters
        -The instructions                                          
        -The start button                        
        -the quit button
+       
        2.) Beginning Sequence  
        - Dino runs on screen
        - Dino reaches middle of the screen and background starts to scroll
