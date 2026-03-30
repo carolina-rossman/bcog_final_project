@@ -7,7 +7,7 @@ experience to bring two beloved games together, creating an addictive experience
 ### 1. A brief (3-5 sentences) description of your planned project
 We will be attempting to recreate an advanced version of the no wifi dinosaur game. The game will include various user-input jumps, and various power-ups and power-downs, ranging from jetpacks, rocket blasters, double score tokens, half score tokens, and shortened jumps. The goal of the game is to reach the end, blow up a fence, and escape jurasic park. 
 ### 2. For each of the three functions, a very brief (1-2 sentences) description of what the function will do.
-      a) One of the functions needs to collect and activate the power-ups and power-downs.
+a) One of the functions needs to collect and activate the power-ups and power-downs.
       b) Another function needs to control the dinosaur, including user-inputted jumps.
       c) The last function needs to control the background and have it scroll, as the dinosaur moves. 
 ### 3. If you are doing a group project, the list of group members with both their real names and Github usernames.
