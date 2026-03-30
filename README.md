@@ -13,8 +13,10 @@ experience to bring two beloved games together, creating an addictive experience
        2.) Beginning Sequence  
        - Dino runs on screen
        - Dino reaches middle of the screen and background starts to scroll
+       
      3.) Base Dino 
       - When spacebar is pressed, Dino Jumps
+
       4.) Power Ups
       -Jet Pack
       (When jetpack is picked up, switch to jetpack/flying Dino image)
@@ -23,30 +25,38 @@ experience to bring two beloved games together, creating an addictive experience
       (when rocket blaster is picked up. switch to Dino with rocket blaster image)
       (rocket blaster constantly shoots)
       -At set distances, a random power-up will appear
+      
       5.) Power Downs
       - Speed up 
       (for a set amount of time,the speed is faster)
       -Midget Dino
        (Dino becomes smaller, meaning jumps are also shorter)
        -At set distances a random power down will appear
+       
        6.) Score Counters
        - Distance Based Counter
        -Also show how far from the end the player is
        -Once a certain distance is reached, an end screen
         will appear
+        
         7.) End Screen 
         -Dino blows up a wall
         -Dino runs off screen
         (Background stops Scrolling)
         -A congrats message appears
+        
         8.) Game Over Screen
         -When an obstacle is hit, this screen appears
         -Has a message "You Died."
         - Two Buttons
         (Quit, Restart)
+        
         9.) Obstacles
         - Various different images
         - Will randomly appear but we will put a guideline in the code that presents the obstacles from being too close together.
+
+       10.) High score counter? 
+       - Still debating 
        
      
 ## Project Details
