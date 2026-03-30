@@ -1,12 +1,12 @@
 # Dino Dash ##
 Names and Parameters
        1.) Start Screen                      
-       -The instructions               -                           
+       -The instructions                                          
        -The start button                        
        -the quit button
-      2.) Beginning Sequence  
-        - Dino runs on screen
-        - Dino reaches middle of the screen and background starts to scroll
+       2.) Beginning Sequence  
+       - Dino runs on screen
+       - Dino reaches middle of the screen and background starts to scroll
      3.) Base Dino 
       - When spacebar is pressed, Dino Jumps
       4.) Power Ups
