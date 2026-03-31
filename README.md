@@ -58,7 +58,9 @@ experience to bring two beloved games together, creating an addictive experience
        10.) High score counter? 
        - Still debating 
        
-     
+## Why Someone Would Use This
+Someone would use this program to pass the time and have fun. It is meant to be a game for dinosaur and sci-fi lovers.
+
 ## Project Details
 ### 1. A brief (3-5 sentences) description of your planned project
 We will be attempting to recreate an advanced version of the no wifi dinosaur game. The game will include various user-input jumps, and various power-ups and power-downs, ranging from jetpacks, rocket blasters, speed up game and midget Dino. The goal of the game is to reach the end, blow up a fence, and escape the test lab. 
