@@ -90,6 +90,8 @@ We will be attempting to recreate an advanced version of the no wifi dinosaur ga
 ## Testing
 You can run the test by running pytest in the root directory as a module. Do so by running:  
 python -m pytest  
+
+  
 When running the game you should expect the following:  
 The dino should stay in the far left of the screen while the background scrolls.  
 As the background scrolls horizontally, obstacles appear that the users should avoid.  
