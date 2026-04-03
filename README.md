@@ -98,9 +98,6 @@ As the user progresses through the game, the tempo gradually speeds up, and the 
 Throughout the game there will be a score counter that:  
 - Shows how far the users has progressed/the distances the dino has traveled since the start of the game.
 - As well as how close the user is to escaping the corrupt test lab. 
-
-
-
 - Then finally, after each attempt, we will gather the users highest distance traveled and display it as the highscore. 
 To make the game more engaging we added various power-ups and power-downs.
 These abilities automatically engage with no user input.
@@ -113,7 +110,7 @@ The power-downs include,
 - Midget Dino (Shrinks the Dino, making the jumps harder.)
 Finally if the user hits the desired distance, to be determined, to escape the corrupt test lab the dino would have escaped.
 Presenting a Congratulations screen.
-However if the dino runs into an obstacle before hand a game over screen appears giving the user two options: 
+However if the dino runs into an obstacle before hand a game over screen appears giving the user two options:
 "try again" and "quit".
 
 
