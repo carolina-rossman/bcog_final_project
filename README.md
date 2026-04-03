@@ -97,6 +97,8 @@ The dino should stay in the far left of the screen while the background scrolls.
 As the background scrolls horizontally, obstacles appear that the users should avoid.  
 By pressing spacebar. Users can clear the obstacles as they appear.  
 As the user progresses through the game, the tempo gradually speeds up, and the difficulty increases as the background scrolls faster.  
+
+  
 Throughout the game there will be a score counter that:  
 - Shows how far the users has progressed/the distances the dino has traveled since the start of the game.  
 - As well as how close the user is to escaping the corrupt test lab.  
