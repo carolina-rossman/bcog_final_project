@@ -1,7 +1,7 @@
 import sys 
 import pygame
 import os
-
+# this is from a Youtube (https://www.youtube.com/watch?v=CLFdN2I2Feg&list=PLr-iRXN7HiJgjrUT-6NE1sSnMzNEGQAH_)
 # creating scrolling background
 WIDTH = 623
 HEIGHT = 150
@@ -34,43 +34,17 @@ class BG:
         self.texture = pygame.image.load(path)
         self.texture = pygame.transform.scale(self.texture, (self.width, self.height))
 
-# class Score:
-
-#     def __init__(self, hs):
-#         self.hs = hs
-#         self.act = 0
-#         self.font = pygame.font.SysFont('monospace', 18)
-#         self.color = (0, 0, 0)
-#         self.show()
-
-#     def update(self, loops):
-#         self.act = loops // 10
-#         self.check_hs()
-
-#     def show(self):
-#         self.lbl = self.font.render(f'HI {self.hs} {self.act}', 1, self.color)
-#         lbl_width = self.lbl.get_rect{}.width
-#         screen.blit(self.lbl, (WIDTH - lbl_width - 10, 10))
-
-#     def check_hs(self):
-#         if self.act >= self.hs:
-#             self.hs = self.act
-
-#     def reset(self):
-#         self.act =0
-
 class Game:
 
     def __init__(self):
         self.bg = [BG(x=0), BG(x=WIDTH) ]
-        self.speed = 3
-        # self.score = Score(hs=0)
+        self.speed = 0.3
+
 
 def main():
 
     game = Game()
 
-    clock = pygame.time.Clock()
 
     while True:
 
@@ -83,12 +57,6 @@ def main():
                 pygame.quit()
                 sys.exit()
         
-        # clock.tick(80)
-        # pygame.display.update()
-
-        # game.score.update(loops)
-        # game.score.show()
-
-
+        pygame.display.update()
     
 main()
