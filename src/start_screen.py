@@ -6,7 +6,7 @@ class Display():
         self.root = root
         self.screen_size_x = self.screen_size[0]
         self.screen_size_y = self.screen_size [1]
-        self.background_image = tk.PhotoImage(file = "../stimuli/background.png")
+        self.background_image = tk.PhotoImage(file = "../stimuli/start_screen_background.png")
         self.init_window()
         self.create_interface_buttons()
 
