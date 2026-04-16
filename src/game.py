@@ -1,6 +1,6 @@
 import tkinter as tk 
 import random
-import FinalProject_PracticeCode
+
 
 class Display(): 
     def __init__(self, root): 
