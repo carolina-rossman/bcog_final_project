@@ -34,37 +34,37 @@ class BG:
         self.texture = pygame.image.load(path)
         self.texture = pygame.transform.scale(self.texture, (self.width, self.height))
 
-class Score:
+# class Score:
 
-    def __init__(self, hs):
-        self.hs = hs
-        self.act = 0
-        self.font = pygame.font.SysFont('monospace', 18)
-        self.color = (0, 0, 0)
-        self.show()
+#     def __init__(self, hs):
+#         self.hs = hs
+#         self.act = 0
+#         self.font = pygame.font.SysFont('monospace', 18)
+#         self.color = (0, 0, 0)
+#         self.show()
 
-    def update(self, loops):
-        self.act = loops // 10
-        self.check_hs()
+#     def update(self, loops):
+#         self.act = loops // 10
+#         self.check_hs()
 
-    def show(self):
-        self.lbl = self.font.render(f'HI {self.hs} {self.act}', 1, self.color)
-        lbl_width = self.lbl.get_rect{}.width
-        screen.blit(self.lbl, (WIDTH - lbl_width - 10, 10))
+#     def show(self):
+#         self.lbl = self.font.render(f'HI {self.hs} {self.act}', 1, self.color)
+#         lbl_width = self.lbl.get_rect{}.width
+#         screen.blit(self.lbl, (WIDTH - lbl_width - 10, 10))
 
-    def check_hs(self):
-        if self.act >= self.hs:
-            self.hs = self.act
+#     def check_hs(self):
+#         if self.act >= self.hs:
+#             self.hs = self.act
 
-    def reset(self):
-        self.act =0
+#     def reset(self):
+#         self.act =0
 
 class Game:
 
     def __init__(self):
         self.bg = [BG(x=0), BG(x=WIDTH) ]
         self.speed = 3
-        self.score = Score(hs=0)
+        # self.score = Score(hs=0)
 
 def main():
 
@@ -83,11 +83,11 @@ def main():
                 pygame.quit()
                 sys.exit()
         
-        clock.tick(80)
-        pygame.display.update()
+        # clock.tick(80)
+        # pygame.display.update()
 
-        game.score.update(loops)
-        game.score.show()
+        # game.score.update(loops)
+        # game.score.show()
 
 
     
