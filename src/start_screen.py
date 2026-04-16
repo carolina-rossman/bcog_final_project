@@ -1,11 +1,12 @@
 import tkinter as tk
+import instructions_screen
 class Display(): 
     screen_size = (800, 600)
-    def __init__(self):
-        self.root = tk.Tk()
+    def __init__(self, root):
+        self.root = root
         self.screen_size_x = self.screen_size[0]
         self.screen_size_y = self.screen_size [1]
-        self.background_image = tk.PhotoImage(file = "background.png")
+        self.background_image = tk.PhotoImage(file = "../stimuli/background.png")
         self.init_window()
         self.create_interface_buttons()
 
@@ -68,6 +69,7 @@ class Display():
             image = self.background_image
         )
         self.root.after (frame_delay)
+        instructions_screen.Display(self.root)
 
 def main(): 
     my_display = Display()

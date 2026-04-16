@@ -1,8 +1,9 @@
 import tkinter as tk
 class Display(): 
     screen_size = (800, 600)
-    def __init__(self):
-        self.root = tk.Tk()
+    def __init__(self, root):
+        self.root = root 
+
         self.screen_size_x = self.screen_size[0]
         self.screen_size_y = self.screen_size [1]
         self.background_image = tk.PhotoImage(file = "../stimuli/instructions_background.png")
