@@ -1,6 +1,8 @@
 import sys 
 import pygame
 import os
+import scoreboard #From Me importing Scoreboard.py file
+
 # this is from a Youtube (https://www.youtube.com/watch?v=CLFdN2I2Feg&list=PLr-iRXN7HiJgjrUT-6NE1sSnMzNEGQAH_)
 # creating scrolling background
 WIDTH = 623
@@ -44,19 +46,23 @@ class Game:
 def main():
 
     game = Game()
-
-
+    meters = 0 # From Me! Importing the scoreboard 
+    clock = pygame.time.Clock() #This was from Pygame
+    
     while True:
 
         for bg in game.bg:
             bg.update(-game.speed)
             bg.show()
+            meters += 0.1 #From ME! Now count in meters
 
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 pygame.quit()
                 sys.exit()
         
+        scoreboard.draw_score_counter(meters,screen) #From Me! Importing the scoreboard
+        clock.tick(80) # From pygames
         pygame.display.update()
     
 main()
