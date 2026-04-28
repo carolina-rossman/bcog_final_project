@@ -50,8 +50,7 @@ class Display():
             pygame.display.update
             clock.tick(120)
 
-
-def main(): 
+def main():
     my_display = Display()
     my_display.go()
 
