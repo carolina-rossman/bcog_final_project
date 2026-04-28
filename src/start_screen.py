@@ -47,8 +47,8 @@ class Display():
                     pygame.quit()
                     sys.exit()   
                 if event.type == pygame.MOUSEBUTTONDOWN: 
-                    print("Start clicked!")
-                    instructions_screen.Display.go()
+                    new_screen = instructions_screen.Display()
+                    new_screen.go()
                     if self.start_button.collidepoint(event.pos):
                         instructions_screen.Display.go()
                     if self.quit_button.collidepoint(event.pos): 
