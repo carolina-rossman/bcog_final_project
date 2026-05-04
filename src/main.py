@@ -1,11 +1,7 @@
 import start_screen
-import base_dino
-import tkinter as tk 
 
 def main(): 
-    root = tk.Tk()
-    start_screen.Display(root)
-    root.mainloop()
+    start_screen.main()
 
 if __name__ == "__main__": 
     main()
