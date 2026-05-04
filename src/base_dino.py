@@ -1,4 +1,4 @@
-# from YouTube Video https://www.youtube.com/watch?v=ST-Qq3WBZBE
+# Base of code is from YouTube Video https://www.youtube.com/watch?v=ST-Qq3WBZBE
 import scrolling_background
 
 import pygame
@@ -21,7 +21,7 @@ def run_game():
     y_velocity = jump_height
 
     standing_surface = pygame.transform.scale(pygame.image.load("../stimuli/dino.png"), (25, 35))
-    jumping_surface = pygame.transform.scale(pygame.image.load("../stimuli/dino.png"), (25, 35))
+    jumping_surface = pygame.transform.scale(pygame.image.load("../stimuli/jumping_dino.png"), (25, 35))
     background = scrolling_background.Game()
 
     mario_rect = standing_surface.get_rect(center =(x_position, y_position))
