@@ -53,3 +53,4 @@ def run_game():
 
         pygame.display.update()
         clock.tick(60)
+    
