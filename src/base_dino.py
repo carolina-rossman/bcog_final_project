@@ -17,7 +17,7 @@ def run_game():
     jumping = False 
 
     y_gravity = 0.5
-    jump_height = 10
+    jump_height = 8
     y_velocity = jump_height
 
     standing_surface = pygame.transform.scale(pygame.image.load("../stimuli/dino.png"), (25, 35))
