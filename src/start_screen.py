@@ -19,11 +19,11 @@ class Display():
         pygame.display.set_caption("Start Screen")
 
     def init_window(self):
-       self.canvas.blit(self.background_image, (0,0))
-       self.title_font = pygame.font.SysFont("Arial", 65, bold = True)
-       title = self.title_font.render("Dino Dash", True, (255, 255, 255))
-       title_rect = title.get_rect(center = (self.screen_size_x/2, 100))
-       self.canvas.blit(title, title_rect)
+        self.canvas.blit(self.background_image, (0,0))
+        self.title_font = pygame.font.SysFont("Arial", 65, bold = True)
+        title = self.title_font.render("Dino Dash", True, (255, 255, 255))
+        title_rect = title.get_rect(center = (self.screen_size_x/2, 100))
+        self.canvas.blit(title, title_rect)
 
 
     def create_interface_buttons(self):

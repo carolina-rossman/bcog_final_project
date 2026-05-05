@@ -17,8 +17,8 @@ class Display():
         pygame.display.set_caption("Instructions Screen")
                 
     def init_window(self):
-       self.canvas.blit(self.background_image, (0,0))
-  
+        self.canvas.blit(self.background_image, (0,0))
+
     def create_interface_buttons(self): 
         pygame.draw.rect(self.canvas, (0, 200, 0), self.start_button)
         pygame.draw.rect(self.canvas,(200, 0, 0), self.quit_button)
