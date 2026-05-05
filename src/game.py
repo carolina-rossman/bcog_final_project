@@ -1,7 +1,7 @@
 import tkinter as tk 
 import random
-import scrolling_background
 import pygame
+import base_dino
 
 class Display(): 
     def __init__(self, root):  
@@ -13,25 +13,23 @@ class Display():
 
         # load scrolling background from other .py
     def init_window(self): 
-        scrolling_background()
-    
-    def base_dino(self): 
-        self.dino = tk.PhotoImage(file = "../stimuli/dino.png")
-
+        base_dino()
 
     def create_powerups(self): 
-        self.jetpack = tk.PhotoImage(file = "../stimuli/_______")
-        self.immunity = tk.PhotoImage(file = "../stimuli/_____")
-        self.revival = tk.PhotoImage(file = "../stimuli/_____")
+        self.jetpack = tk.PhotoImage(file = "../stimuli/jetpack_token.png")
+        self.immunity = tk.PhotoImage(file = "../stimuli/shield_token.png")
+        self.revival = tk.PhotoImage(file = "../stimuli/life_token.png")
         selected_powerup = random.choice(self.jetpack, self.immunity, self.revival)
 
     def create_powerdowns(self):
-        self.speed_up = tk.PhotoImage(file = "../stimuli/_____")
+        self.speed_up = tk.PhotoImage(file = "../stimuli/double_time_token.png")
+        self.tiny_dino = tk.PhotoImage(file = "../stimuli/tiny_dino_token.png")
+        selected_powerdown = random.choice(self.speed_up, self.tiny_dino)
         
     def create_obstacles(self): 
         self.fence = tk.PhotoImage(file= "../stimuli/fence.png")
         self.bush = tk.PhotoImage(file = "../stimuli/bush.png")
-        selected_obstacles = random.choice ([self.bush, self.fence])
+        selected_obstacles = random.choice (self.bush, self.fence)
         # generate those images as background scrolls 
         # use pygame
     def user_jumps(self): 
