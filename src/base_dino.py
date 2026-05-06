@@ -42,7 +42,7 @@ def run_game():
         if jumping: 
             y_position -= y_velocity
             y_velocity -= y_gravity
-            if y_velocity <- jump_height:
+            if y_velocity < - jump_height:
                 jumping = False
                 y_velocity = jump_height
             mario_rect = standing_surface.get_rect(center =(x_position, y_position))
